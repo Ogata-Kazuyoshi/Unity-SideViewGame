@@ -1,5 +1,5 @@
 # ベースイメージ
-FROM ubuntu:20.04
+FROM ubuntu:latest
 
 # 必要なパッケージのインストール
 RUN apt-get update && apt-get install -y \
